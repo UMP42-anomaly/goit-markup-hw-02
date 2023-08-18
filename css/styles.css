@@ -3,7 +3,7 @@
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
   --green: #31d0aa;
-  --slate: #424455;
+  --slate: #434455;
   --light-slate: #8e8f99;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
@@ -17,9 +17,9 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 2%;
-  color: var(--navy-blue);
-  background-color: #e5e5e5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: #ffffff;
 }
 
 h1 {
@@ -41,14 +41,14 @@ h3 {
 a {
   font-size: 12px;
   line-height: 1.33;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
 }
 
 button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -56,13 +56,102 @@ ul {
   list-style-type: none;
 }
 
-a:focus,
-a:hover button:focus,
-button:hover {
+.logo {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.dark-color {
+  color: var(--navy-blue);
+}
+
+.nav-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus,
+.address-list-item:hover,
+.address-list-item:focus {
   color: var(--ocean);
 }
 
-.address:focus,
-.address:hover {
-  color: var(--ocean);
+.address {
+  font-style: normal;
+}
+
+.address-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-heading {
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.order-service-button {
+  background-color: var(--iris);
+  color: white;
+}
+
+button:focus,
+button:hover {
+  background-color: var(--ocean);
+}
+
+.heading3 {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.our-team-section {
+  background-color: var(--cloud);
+}
+
+.heading2 {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.our-team-list-item {
+  background-color: white;
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.light-color {
+  color: var(--cloud);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
