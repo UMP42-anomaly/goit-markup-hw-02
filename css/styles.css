@@ -57,7 +57,7 @@ ul {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.17;
@@ -116,9 +116,10 @@ button:hover {
   background-color: var(--ocean);
 }
 
-.heading3 {
+.heading-small {
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .paragraph {
@@ -132,11 +133,12 @@ button:hover {
   background-color: var(--cloud);
 }
 
-.heading2 {
+.heading-normal {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--navy-blue);
 }
 
 .our-team-list-item {
