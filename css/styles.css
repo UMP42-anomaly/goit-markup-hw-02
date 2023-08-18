@@ -1,0 +1,68 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #424455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f4266;
+  --grey: #2e2f42b3;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 2%;
+  color: var(--navy-blue);
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+a {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 4%;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:focus,
+a:hover button:focus,
+button:hover {
+  color: var(--ocean);
+}
+
+.address:focus,
+.address:hover {
+  color: var(--ocean);
+}
